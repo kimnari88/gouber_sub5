@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    min-width: 1350px;
+}
+#top{
+    width: 1350px;
+    margin: 30px auto;
+}
+#top h1{
+    float: left;
+    transform: translate(180%, 0);
+}
+#top ul{
+    float: right;
+}
+#top ul li{
+    float: left;
+    padding: 0 5px;
+}
+#header{
+    width: 1350px;
+    height: 123px;
+    margin: auto;
+    clear: both;
+}
+#header ul li{
+    float: left;
+    padding:  50px 99px;
+}
+#header ul li a{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#footer{
+    clear: both;
+    background: #333;
+    height: 200px;
+    color: white;
+    line-height: 30px;
+}
+#footer_inner{
+    width: 1350px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+#footer h1{
+    float: left;
+    padding-right: 100px;
+}
+#footer #box{
+    float: left;
+}
+#footer ul li{
+    float:left;
+    padding: 0 10px;
+}
+#footer ul li a{
+    color: white;
+}
+#footer p{
+    clear: both;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*헤더, 푸터*/
+ 
+#service{
+   
+   
+    margin-bottom: 300px;
+}
+#service_inner{
+    margin: auto;
+    
+}
+#service img{
+    width: 100%;
+}
+#big{
+    width: 1350px;
+    margin: auto;
+    height: 465px;
+    margin-bottom: 300px;
+}
+#big ul li{
+    float: left;
+    padding: 0 19px;
+}
+#store{
+    background: #e79f56;
+   height: 1340px;
+   margin-bottom: 100px;
+}
+#store_inner{
+width: 1350px;
+margin: auto;
+}
+#store_inner img{
+    padding: 100px 0 50px 0px;
+}
+#store_inner .title{
+    width: 655px;
+    padding-left: 250px;
+    
+}
+#store ul{
+    float: right;
+    padding: 0 100px;
+}
+#store ul li{
+    float: left;
+    padding: 0 50px;
+    font-size: 20px;
+    }
+#store .wh{
+    color: white;
+    padding-top: 20px;
+} 
+#store .bl{
+    color: black;
+    background: white;
+    padding: 20px;
+    display: block;
+  
+    text-align: center;
+    font-weight: bold;
+} 
+  #map{
+     
+      width: 620px;
+      margin: auto;
+      font-size: 20px;
+      
+  }
+  #map .text{
+      padding-top: 30px;
+      padding-left: 20px;
+  }
+  #map .bus li{
+      float: left;
+     height: 100px;
+     
+  }
+  #map .subway li{
+      float: left;
+     height: 100px;
+  }
+  #icon{
+     padding: 50px 0;
+      clear: both;
+      margin-bottom: 100px; 
+  }
+  #icon_inner{
+width: 500px;
+      margin: auto;
+  }
+  #icon ul li{
+      float: left;
+      padding: 0 5px;
+  }
