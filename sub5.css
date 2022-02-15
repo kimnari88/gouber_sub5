@@ -12,7 +12,7 @@ ul,ol{
 body{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 14px;
-    min-width: 1350px;
+    min-width: 1450px;
 }
 #top{
     width: 1350px;
@@ -29,20 +29,40 @@ body{
     float: left;
     padding: 0 5px;
 }
+#top ul li a:hover{
+color: white;
+background: black;
+padding: 10px;
+}
 #header{
     width: 1350px;
-    height: 123px;
+    height: 124px;
     margin: auto;
     clear: both;
 }
 #header ul li{
     float: left;
-    padding:  50px 99px;
+    padding:  50px 99px 0;
 }
 #header ul li a{
     font-weight: bold;
     font-size: 20px;
+    display: block;
 }
+#header li a:hover{color:#f16136;}
+.solid{width:100%;
+		margin:auto;
+		margin-top:20px;
+		height:5px;
+		background:#f16136;
+		visibility:hidden;
+		opacity:0;
+		transform:scaleX(0);
+		transition-property:opacity, transform;
+		transition-duration:0.5s;}
+#header li a:hover .solid{transform:scaleX(1);
+						opacity:1;
+						visibility:visible;}
 
 
 #footer{
