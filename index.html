@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1450">
     <title>굽떼 구움과자전문점</title>
+
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
@@ -39,8 +44,12 @@
         </ul>
     </div>
     <!--header-->
+    <div class="button">
+        <a href="#">TOP</a>
+    </div>
 
-    <div id="service">
+
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="service">
         <div id="service_inner">
             <img src="images/mb.png" alt="서비스">
         </div>
@@ -48,35 +57,41 @@
 
     <div id="big">
         <ul>
-            <li><img src="images/hour.png" alt=""></li>
-            <li><img src="images/number.png" alt=""></li>
-            <li><img src="images/adress.png" alt=""></li>
+            <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300"><img src="images/hour.png"
+                    alt="운영시간"></li>
+            <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400"><img src="images/number.png"
+                    alt="전화번호"></li>
+            <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"><img src="images/adress.png"
+                    alt="이메일주소"></li>
         </ul>
     </div>
 
-    <div id="store">
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="store">
         <div id="store_inner">
-            <img class="title" src="images/store.png" alt="">
+            <img data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" class="title" src="images/store.png"
+                alt="지도">
             <img src="images/sb.png" alt="">
             <ul>
-                <li class="wh">주소: 부산광역시 수영구 광안로591번길 17</li>
-                <li class="bl"><a href="#">지도 자세히보기</a></li>
+                <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" class="wh">주소: 부산광역시 수영구 광안로591번길
+                    17</li>
+                <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" class="bl"><a href="#">지도
+                        자세히보기</a></li>
             </ul>
         </div>
     </div>
     <div id="map">
-        <ul class="bus">
+        <ul data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" class="bus">
             <li><img src="images/bus.png" alt=""></li>
             <li class="text">버스이용시 40번, 83번 83-1번 광안리해수욕장 하차</li>
 
         </ul>
-        <ul class="subway">
+        <ul data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" class="subway">
             <li><img src="images/subway.png" alt=""></li>
             <li class="text">지하철이용시 금련산역 3번 출구에서 광안리해수욕장 방향</li>
         </ul>
     </div>
 
-    <div id="icon">
+    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" id="icon">
         <div id="icon_inner">
             <ul>
                 <li><a href="#"><img src="images/kakao.png" alt=""></a></li>
@@ -109,5 +124,8 @@
         </div>
     </div>
 </body>
+<script>
+    AOS.init();
+</script>
 
 </html>
